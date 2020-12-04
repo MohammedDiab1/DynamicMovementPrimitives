@@ -1,0 +1,7 @@
+<launch>
+  <!-- execute pre-recorded motions -->
+  <rosparam file="$(find rl_serving)/config/result.yaml" command="load" />
+  <node name="dmp" pkg="dmp" type="dmp_server" respawn="false" output="screen"/>
+  <node name="dmp_main" pkg="dmp_package" type="dmp_main.py" output="screen"/>  
+</launch>
+

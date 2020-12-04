@@ -1,0 +1,4 @@
+<launch>
+  <node name="dmp_training" pkg="dmp_package" type="dmp_training.py" output="screen"/>  
+</launch>
+

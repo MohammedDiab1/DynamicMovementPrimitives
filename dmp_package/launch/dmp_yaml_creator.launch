@@ -1,0 +1,5 @@
+<launch>
+  <node name="dmp" pkg="dmp" type="dmp_server" respawn="false" output="screen"/>
+  <node name="dmp_yaml_creator" pkg="dmp_package" type="dmp_yaml_creator.py" output="screen"/>  
+</launch>
+

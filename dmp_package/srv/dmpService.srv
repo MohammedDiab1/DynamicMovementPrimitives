@@ -1,0 +1,4 @@
+# Pose that is wanted to reach
+float64[] joints
+string name
+---
